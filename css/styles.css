@@ -1,0 +1,95 @@
+/* Estilo general */
+body {
+    font-family: 'Cambria', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2e;
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #61dafb;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #20232a;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+
+
+a:hover {
+    background-color: #61dafb;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenido {
+    margin-bottom: 30px;
+}
+
+/* Texto */
+.centrar {
+    text-align: center;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+/* Footer */
+.footer {
+    background-color: #20232a;
+    color: #61dafb;
+    text-align: center;
+    padding: 20px 10px;
+    border-top: 5px solid #61dafb;
+}
+
+/* Estilos responsive */
+@media (max-width: 760px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
